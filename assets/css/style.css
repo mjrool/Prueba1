@@ -243,6 +243,27 @@ body{
 	padding: auto;
 }
 
+.noticia1 h4{
+	color: #666666;
+	padding: 14px;
+}
+
+.noticia1 p{
+	color: #666666;
+	font-size: 13px;
+	padding: 14px;
+}
+
+.noticia2 p{
+	color: #666666;
+	font-size: 13px;
+}
+
+.noticia3 p{
+	color: #666666;
+	font-size: 13px;
+}
+
 /* Informacion Nosotros */
 
 .info__Mision{
@@ -261,9 +282,11 @@ body{
 	font-size: 1em;
 	padding: 4%;
 
+
 }
 
 .footer_top h4, p{
+	color: white;
 	
 }
 

@@ -31,3 +31,59 @@ p{
 	display: block;
 
 }
+
+@media only screen and (max-width: 767px){
+
+	h1{
+		font-size: 2em;
+	}
+
+	h2{
+		font-size: 1.625em;
+	}
+
+	h3{
+		font-size: 1.375em;
+	}
+}
+
+/* Navbar */
+
+.navbar_ninocancer{
+	background-color: #1cbac8;
+	height: 100px;
+	padding-top: 0px;
+	color: hsla(0, 100%, 100%, 0.52);
+}
+
+.icon-bar{
+	background-color: #fff;
+
+}
+
+.navbar-brand{
+	padding: 0px 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-brand img{
+	max-height: 100px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.navbar-nav > li > a{
+	color: #fff;
+	text-shadow: none;
+	text-transform: uppercase;
+	padding-top: 80px;
+}
+
+.navbar-nav > li > a:hover{
+	background-color: initial;
+	color: hsla(0, 0%, 100%, .5);
+}
+
+.navbar{
+	margin-bottom: 0;
+}

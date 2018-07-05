@@ -87,3 +87,83 @@ p{
 .navbar{
 	margin-bottom: 0;
 }
+
+/* Header */
+
+.header_ninocancer{
+	background-image: url("/Users/patricio/Desktop/PRUEBA1/assets/img/304872_cancerinfantil2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	height: 500px;
+	padding-top: 5%;
+	margin-bottom: 2%;
+	background-position: right bottom;
+}
+
+.header_ninocancer h1{
+	color: #fff;
+	font-size: 5em;
+}
+
+.header_ninocancer p{
+	color: hsla(0, 0%, 100%, .8);
+	line-height: 22px;
+	padding: 1rem 20vw;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px){
+
+	.header_ninocancer{
+		height: 500px;
+		padding-top: 60px;
+		background-position: center;
+	}
+
+	.header_ninocancer h1{
+		font-size: 3em;
+	}
+
+	.header_ninocancer p{
+	padding: 1rem 4rem;
+	}
+
+	.navbar-brand img{
+	max-height: 50px;
+	margin-top: 0px;
+	padding-top: 0px;
+	}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 399px){
+
+	.header_ninocancer{
+		height: 300px;
+		padding-top: 20px;
+		background-position: center;
+	}
+
+	.header_ninocancer h1{
+		font-size: 1.5em;
+	}
+
+	.header_ninocancer p{
+	padding: 0.7rem 2rem;
+	font-size: 0.9em;
+	}
+
+	.navbar-brand img{
+	max-height: 40px;
+	margin-top: 0px;
+	padding-top: 0px;
+	}
+
+}
+
+.container-fluid{
+	padding-right: 3%;
+    padding-left: 3%;
+    margin-right: auto;
+    margin-left: auto;
+}

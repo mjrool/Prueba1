@@ -167,3 +167,44 @@ p{
     margin-right: auto;
     margin-left: auto;
 }
+
+/* Noticias */
+
+.titulo-noticias{
+	background-color: #1cbac8;
+	background-position: center;
+	background-size: cover;
+	height: 80px;
+
+}
+.thumbnails p{
+	color: #666666;
+
+}
+
+.cuerpo-noticias{
+	background: #ccc;
+	width: 100%
+}
+
+.cuerpo-noticias div, p, a, img, h3, h4{
+	margin: auto;
+	padding: auto;
+}
+
+/* Footer */
+
+.footer_ninocancer{
+	background-color: #666666;
+	font-size: 1em;
+	padding: 4%;
+
+}
+
+.footer_top h4, p{
+	
+}
+
+
+
+

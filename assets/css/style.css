@@ -121,7 +121,7 @@ body{
 
 	.header_ninocancer{
 		height: 500px;
-		padding-top: 240px;
+		padding-top: 150px;
 		background-position: center;
 	}
 
@@ -149,7 +149,7 @@ body{
 
 	.header_ninocancer{
 		height: 400px;
-		padding-top: 180px;
+		padding-top: 120px;
 		background-position: center;
 	}
 
@@ -173,7 +173,7 @@ body{
 
 }
 
-@media only screen and (min-width: 251px) and (max-width: 320px){
+@media only screen and (min-width: 0px) and (max-width: 320px){
 
 	.header_ninocancer{
 		height: 300px;
@@ -254,14 +254,30 @@ body{
 	padding: 14px;
 }
 
+.noticia2 h4{
+	color: #666666;
+	padding: 14px;
+}
+
 .noticia2 p{
 	color: #666666;
 	font-size: 13px;
+	padding: 14px;
+}
+
+.noticia3 h5, h4{
+	color: #666666;
+	padding: 14px;
+}
+
+.noticia3 h5{
+	padding: 0px 14px 0px 14px;
 }
 
 .noticia3 p{
 	color: #666666;
 	font-size: 13px;
+	padding: 14px;
 }
 
 /* Informacion Nosotros */
@@ -282,14 +298,30 @@ body{
 	font-size: 1em;
 	padding: 4%;
 
-
 }
 
-.footer_top h4, p{
-	color: white;
+.footer-top h4, p{
+	color: #e8e8e8;
 	
 }
 
+.footer-middle h4 {
+	color: #e8e8e8;
+}
 
+.footer-middle form {
+	color: #e8e8e8;
+}
 
+.footer-middle input {
+	color: #666666;
+}
+
+.footer-bottom i{
+	color: #e8e8e8;
+}
+
+.footer-bottom h4{
+	color: #e8e8e8;
+}
 

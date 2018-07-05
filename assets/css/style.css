@@ -1,0 +1,33 @@
+/* Global Styles */
+
+h1, h2, h3 {
+	font-family: 'Rubik', 700;
+}
+
+p{
+	font-family: 'Rubik', sans-serif;
+}
+
+/* Font hierarchy */
+
+h1{
+	font-size: 3em;
+}
+
+h2{
+	font-size: 2.25em;
+}
+
+h3{
+	font-size: 1.75em;
+}
+
+p{
+	color: #666666;
+}
+
+p{
+	margin: 0 0 10px;
+	display: block;
+
+}

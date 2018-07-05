@@ -51,9 +51,10 @@ p{
 
 .navbar_ninocancer{
 	background-color: #1cbac8;
-	height: 100px;
+	height: 80px;
 	padding-top: 0px;
 	color: hsla(0, 100%, 100%, 0.52);
+
 }
 
 .icon-bar{
@@ -67,7 +68,7 @@ p{
 }
 
 .navbar-brand img{
-	max-height: 100px;
+	max-height: 80px;
 	margin-top: 0px;
 	padding-top: 0px;
 }
@@ -76,7 +77,7 @@ p{
 	color: #fff;
 	text-shadow: none;
 	text-transform: uppercase;
-	padding-top: 80px;
+	padding-top: 50px;
 }
 
 .navbar-nav > li > a:hover{
@@ -95,8 +96,8 @@ p{
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
-	height: 500px;
-	padding-top: 5%;
+	height: 600px;
+	padding-top: 250px;
 	margin-bottom: 2%;
 	background-position: right bottom;
 }
@@ -112,11 +113,11 @@ p{
 	padding: 1rem 20vw;
 }
 
-@media only screen and (min-width: 400px) and (max-width: 767px){
+@media only screen and (min-width: 767px) and (max-width: 1024px){
 
 	.header_ninocancer{
 		height: 500px;
-		padding-top: 60px;
+		padding-top: 240px;
 		background-position: center;
 	}
 
@@ -125,18 +126,42 @@ p{
 	}
 
 	.header_ninocancer p{
-	padding: 1rem 4rem;
+		padding: 1rem 4rem;
 	}
 
 	.navbar-brand img{
-	max-height: 50px;
-	margin-top: 0px;
-	padding-top: 0px;
+		max-height: 50px;
+		margin-top: 0px;
+		padding-top: 0px;
 	}
 
 }
 
-@media only screen and (min-width: 0px) and (max-width: 399px){
+@media only screen and (min-width: 321px) and (max-width: 767px){
+
+	.header_ninocancer{
+		height: 400px;
+		padding-top: 180px;
+		background-position: center;
+	}
+
+	.header_ninocancer h1{
+		font-size: 2em;
+	}
+
+	.header_ninocancer p{
+		padding: 1rem 3rem;
+	}
+
+	.navbar-brand img{
+		max-height: 50px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 320px){
 
 	.header_ninocancer{
 		height: 300px;
@@ -149,14 +174,14 @@ p{
 	}
 
 	.header_ninocancer p{
-	padding: 0.7rem 2rem;
-	font-size: 0.9em;
+		padding: 0.7rem 2rem;
+		font-size: 0.9em;
 	}
 
 	.navbar-brand img{
-	max-height: 40px;
-	margin-top: 0px;
-	padding-top: 0px;
+		max-height: 40px;
+		margin-top: 0px;
+		padding-top: 0px;
 	}
 
 }
@@ -191,6 +216,17 @@ p{
 	margin: auto;
 	padding: auto;
 }
+
+/* Informacion Nosotros */
+
+.info__Mision{
+	background-image: url("../img/CReunion_2011_027.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+
 
 /* Footer */
 

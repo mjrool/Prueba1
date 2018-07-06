@@ -49,11 +49,14 @@ p{
 
 /* Navbar */
 
+
+
 .navbar_ninocancer{
 	background-color: #1cbac8;
 	height: 70px;
-	padding-top: 0px;
+	
 	color: hsla(0, 100%, 100%, 0.52);
+	margin-bottom: 0px;
 
 }
 
@@ -77,16 +80,18 @@ p{
 	color: #fff;
 	text-shadow: none;
 	text-transform: uppercase;
-	padding-top: 50px;
+	
 }
 
-.navbar-nav > li > a:hover{
+.navbar-nav > li > a{
 	background-color: initial;
-	color: hsla(0, 0%, 100%, .5);
+	color: hsla(90%, 0%, 100%, .5);
+	background-color: #1cbac8;
+	padding-top: 35px;
 }
 
 .navbar{
-	margin-bottom: 0;
+	
 }
 
 body{
@@ -138,11 +143,6 @@ body{
 		margin-top: 0px;
 		padding-top: 0px;
 	}
-
-	.navbar_ninocancer{
-		height: 70px;
-	}
-
 }
 
 @media only screen and (min-width: 321px) and (max-width: 767px){
@@ -166,11 +166,6 @@ body{
 		margin-top: 0px;
 		padding-top: 0px;
 	}
-
-	.navbar_ninocancer{
-		height: 70px;
-	}
-
 }
 
 @media only screen and (min-width: 0px) and (max-width: 320px){
@@ -200,10 +195,7 @@ body{
 		height: 60px;
 		margin-top: 0px;
 		padding-top: 0px;
-	}
-
-	.navbar_ninocancer{
-		height: 60px;
+		display: none;
 	}
 
 	body{
@@ -212,12 +204,7 @@ body{
 
 }
 
-.container-fluid{
-	padding-right: 3%;
-    padding-left: 3%;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 
 /* Noticias */
 
@@ -282,12 +269,12 @@ body{
 
 /* Informacion Nosotros */
 
-.info__Mision{
+.foto-historia{
 	background-image: url("../img/CReunion_2011_027.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 500px;
+	height: 400px;
 }
 
 

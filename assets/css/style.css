@@ -269,7 +269,28 @@ body{
 
 /* Informacion Nosotros */
 
+.info__historia h3{
+	color: #666666;
+	padding: 15px;
+	padding-top: 25px;
+}
 
+.info__historia p{
+	color: #666666;
+	padding: 15px;
+}
+
+.info2__inner h3{
+	color: #666666;
+	padding: 15px;
+
+}
+
+..info2__inner p{
+	color: #666666;
+	padding: 15px;
+
+}
 
 
 /* Footer */
@@ -281,9 +302,12 @@ body{
 
 }
 
-.footer-top h4, p{
+.footer-top h4{
 	color: #e8e8e8;
-	
+}
+
+.footer-top p{
+	color: #e8e8e8;
 }
 
 .footer-middle h4 {

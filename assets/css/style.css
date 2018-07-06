@@ -101,7 +101,7 @@ body{
 /* Header */
 
 .header_ninocancer{
-	background-image: url("/Users/patricio/Desktop/PRUEBA1/assets/img/304872_cancerinfantil2.jpg");
+	background-image: url("assets/img/304872_cancerinfantil2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;

@@ -221,13 +221,18 @@ body{
 }
 
 .cuerpo-noticias{
-	background: #ccc;
+	
 	width: 100%
 }
 
 .cuerpo-noticias div, p, a, img, h3, h4{
 	margin: auto;
 	padding: auto;
+}
+
+.cuerpo-noticias h4{
+	color: #666666;
+	padding: 15px;
 }
 
 .noticia1 h4{
